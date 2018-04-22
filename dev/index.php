@@ -71,47 +71,83 @@
 
       <!-- Main content -->
       <section class="content">
-        <div class="callout callout-info">
-          <h4>Tip!</h4>
-
-          <p>Add the layout-top-nav class to the body tag to get this layout. This feature can also be used with a
-            sidebar! So use this class if you want to remove the custom dropdown menus from the navbar and use regular
-            links instead.</p>
-        </div>
-        <div class="callout callout-danger">
-          <h4>Warning!</h4>
-
-          <p>The construction of this layout differs from the normal one. In other words, the HTML markup of the navbar
-            and the content will slightly differ than that of the normal layout.</p>
-        </div>
+        
         <div class="box box-default">
-          <div class="box-header with-border">
-            <h3 class="box-title">Blank Box</h3>
-          </div>
+          
           <div class="row">
-        <div class="col-md-4">
-          <!-- Widget: user widget style 1 -->
-          <div class="box box-widget widget-user-2">
-            <!-- Add the bg color to the header using any of the bg-* classes -->
-            <div class="widget-user-header bg-yellow">
-              <div class="widget-user-image">
-                <img class="img-circle" src="../dist/img/user7-128x128.jpg" alt="User Avatar">
+
+            <div class="col-md-6">
+              <!-- Widget: user widget style 1 -->
+              <div class="box box-widget widget-user-2">
+                <!-- Add the bg color to the header using any of the bg-* classes -->
+                <div class="widget-user-header bg-gray">
+                  <div class="widget-user-image">
+                    <img class="img-circle" src="../dist/img/target.png" alt="User Avatar">
+                  </div>
+                  <!-- /.widget-user-image -->
+                  <h3 class="widget-user-username">Our Mission</h3>
+                  <h5 class="widget-user-desc">Fighting Against Crime</h5>
+                </div>
+                <div class="box-footer padding">
+                  <marquee id="p" behavior="scroll" direction="down" scrollamount="8">
+                    <ul class="nav nav-stacked">
+                      <li class="box-header with-border bg-gray">Protect your family</li>
+                      <li class="box-header with-border bg-gray">Your community and the Nation</li>
+                      <li class="box-header with-border bg-gray">Terminate Jongi and terrorism activity</li>
+                      <li class="box-header with-border bg-gray">Isolate the narcotic procession</li>
+                      <li class="box-header with-border bg-gray">Find the identity of wanted fugitives and missing persons</li>
+                      <li class="box-header with-border bg-gray">Top most wanted Criminal</li>
+                      <li class="box-header with-border bg-gray">Kidnapping & Missing Person</li>
+                      <li class="box-header with-border bg-gray">Bank Robbers</li>
+                    </ul>
+                  </marquee>
+                </div>
               </div>
-              <!-- /.widget-user-image -->
-              <h3 class="widget-user-username">Nadia Carmichael</h3>
-              <h5 class="widget-user-desc">Lead Developer</h5>
+              <!-- /.widget-user -->
             </div>
-            <div class="box-footer no-padding">
-              <ul class="nav nav-stacked">
-                <li><a href="#">Projects <span class="pull-right badge bg-blue">31</span></a></li>
-                <li><a href="#">Tasks <span class="pull-right badge bg-aqua">5</span></a></li>
-                <li><a href="#">Completed Projects <span class="pull-right badge bg-green">12</span></a></li>
-                <li><a href="#">Followers <span class="pull-right badge bg-red">842</span></a></li>
-              </ul>
-            </div>
-          </div>
-          <!-- /.widget-user -->
-        </div>
+
+            <div class="col-md-6">
+              <!-- Widget: user widget style 1 -->
+              <div class="box box-widget widget-user-2">
+                <!-- Add the bg color to the header using any of the bg-* classes -->
+                <div class="widget-user-header bg-red">
+                  <!-- /.widget-user-image -->
+                  <marquee behavior="alternate" direction="right" scrollamount="4">
+                    <h3 class="widget-user-username">Most Wanted Criminals</h3>
+                    <h5 class="widget-user-desc"></h5>
+                  </marquee>
+                </div>
+                <div class="box-footer padding">
+                  <marquee id="want" behavior="scroll" direction="down" scrollamount="15" onmouseover="this.stop()" onmouseout="this.start()">
+                    <ul class="nav nav-stacked">
+                      <li class="box-header with-border bg-white">
+                        <img  src="../image/FreedomSohel.gif" width="180px" height="200px" / <br><h5>Sohel Rana Chowdhory</h5>
+                      </li>
+                      <li class="box-header with-border bg-gray">
+                        <img  src="../image/img2.gif" width="180px" height="200px" / <br><h5 >Liakat Hossen </h5>
+                      </li>
+                      <li class="box-header with-border bg-gray">
+                        <img  src="../image/img1.gif" width="180px" height="200px"/ <br><h5>Haris Ahmed </h5>
+                      </li>
+                      <li class="box-header with-border bg-gray">
+                        <img  src="../image/img5.gif" width="180px" height="200px"/ <br><h5>Khandakar Tanveer Islam @ Joy </h5>
+                      </li>
+                      <li class="box-header with-border bg-gray">
+                        <img  src="../image/prakash.gif" width="180px" height="200px"/ <br><h5>Prokash Kumar Biswas  </h5>
+                      </li>
+                      <li class="box-header with-border bg-gray">
+                        <img  src="../image/JaforAhmedManik.gif" width="180px" height="200px"/ <br><h5>Jafor Ahmed @ Manik </h5>
+                      </li>
+                      <li class="box-header with-border bg-gray">
+                        <img  src="../image/AgaShamim.gif" width="180px" height="200px"/ <br><h5>Shamim Ahmed</h5>
+                      </li>
+                    </ul>
+                  </marquee>
+                </div>
+              </div>
+              <!-- /.widget-user -->
+            </div>  
+
           <!-- /.box-body -->
         </div>
         <!-- /.box -->
@@ -147,4 +183,9 @@
 <!-- AdminLTE for demo purposes -->
 <script src="../dist/js/demo.js"></script>
 </body>
+<style>
+#want{
+  height:400px;
+}
+</style>
 </html>

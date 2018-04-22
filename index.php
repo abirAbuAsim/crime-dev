@@ -183,7 +183,7 @@ input[type=text]{
 <img src="image/cp_imgdice.jpg" class="right">
 <h2>Our Mission</h2>
 <h3>Fighting against crime</h3>
-<marquee id="p" behavior="scroll"direction="down"scrollamount="8">
+<marquee id="p" behavior="scroll" direction="down" scrollamount="8">
 Protect your family<br /><br /> 
 your community and the Nation<br /><br /> 
 Terminate Jongi and terrorism activity<br /><br /> 
